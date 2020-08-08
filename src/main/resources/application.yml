@@ -1,0 +1,12 @@
+# api server
+server:
+  port: 8088
+# spring boot
+spring:
+  data:
+    # mongodb
+    mongodb:
+      uri: mongodb+srv://root:laoge123@laoge.p9dbm.azure.mongodb.net/daily_tally?retryWrites=true&w=majority
+      username: root
+      password: laoge123
+      database: daily_tally
